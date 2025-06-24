@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VisionBridge</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background-color: #fff;
+    }
+    header {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1506744038136-46273834b3fb');
+      background-size: cover;
+      color: white;
+      text-align: center;
+      padding: 60px 20px 30px;
+    }
+    header h1 {
+      font-size: 1.8em;
+    }
+    .search-bar {
+      margin: 10px auto;
+      max-width: 90%;
+      display: flex;
+      justify-content: center;
+    }
+    .search-bar input {
+      width: 100%;
+      padding: 10px;
+      border-radius: 25px;
+      border: none;
+      outline: none;
+    }
+    .section {
+      padding: 20px;
+    }
+    .section h2 {
+      color: #3c3c3c;
+      font-size: 1.4em;
+      margin-bottom: 15px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+    .card {
+      background-color: #f9f9f9;
+      border-radius: 15px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .card img {
+      max-width: 60%;
+      margin-bottom: 10px;
+    }
+    .card h3 {
+      font-size: 1.1em;
+      margin: 10px 0;
+    }
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      background-color: #333;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+    }
+    footer a {
+      color: white;
+      text-decoration: none;
+      font-size: 0.9em;
+    }
+    .mic-btn {
+      background: #0b0b45;
+      color: white;
+      font-size: 20px;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: -20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="text-align: right; font-size: 0.8em;">07:00 AM</div>
+    <div style="text-align: left; font-size: 1em;">HELLO, USER!</div>
+    <div class="search-bar">
+      <input type="text" placeholder="Tap twice to start searching...">
+    </div>
+    <h1><span style="color: gold">An invisible bridge</span><br>towards the world</h1>
+  </header>
+
+  <div class="section">
+    <h2>TODAY'S NEWS</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="New Tech Products">
+        <h3>New Tech Products</h3>
+      </div>
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/21/21601.png" alt="Top News">
+        <h3>Top News</h3>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>EDUCATION</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/3105/3105613.png" alt="Life Skills">
+        <h3>LIFE SKILLS</h3>
+      </div>
+      <div class="card">
+        <img src="https://cdn-icons-png.flaticon.com/512/2920/2920293.png" alt="Application">
+        <h3>APPLICATION</h3>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <a href="#">Main Page</a>
+    <a href="#">Marketplace</a>
+    <div class="mic-btn">🎤</div>
+    <a href="https://codepen.io/yzmflrry-the-scripter/pen/pvJqrvE">Forum</a>
+    <a href="#">Settings</a>
+  </footer>
+</body>
+</html>
